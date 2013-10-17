@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cnpj:</b>
+  <%= @juridical_person.cnpj %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @juridical_person.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @juridical_person.address %>
+</p>
+
+
+<%= link_to 'Edit', edit_juridical_person_path(@juridical_person) %> |
+<%= link_to 'Back', juridical_people_path %>

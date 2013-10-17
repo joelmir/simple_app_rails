@@ -1,0 +1,614 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"acc",
+				"accounts"
+			],
+			[
+				"accon",
+				"account"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"A",
+				"attributes_for"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"accoun",
+				"account"
+			],
+			[
+				"juri",
+				"juridica_person"
+			],
+			[
+				"aco",
+				"account2"
+			],
+			[
+				"ac",
+				"account"
+			],
+			[
+				"posi",
+				"posicao"
+			],
+			[
+				"book",
+				"booking_plan_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/users/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/accounts/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 1221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/account.rb",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/accounts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/juridical_people/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/juridical_people_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/juridical_person.rb",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Project: Close"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/joelmir/pull4up/testes/simple_app/spec/controllers/users_controller_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/controllers/accounts_controller_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/controllers/juridical_people_controller_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/models/account.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/models/user.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/factories/users.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/controllers/users_controller.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/controllers/accounts_controller.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/controllers/juridical_people_controller.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/factories/juridical_person.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/models/juridical_person_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/factories/account.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/models/account_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/models/user_spec.rb",
+		"/home/joelmir/pull4up/testes/simple_app/db/migrate/20131014183207_add_table_accounts_users.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/models/juridical_person.rb",
+		"/home/joelmir/pull4up/testes/simple_app/config/application.rb",
+		"/home/joelmir/pull4up/testes/simple_app/spec/spec_helper.rb",
+		"/home/joelmir/pull4up/testes/simple_app/Gemfile",
+		"/home/joelmir/pull4up/testes/simple_app/app/models/usuario.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/models/contum.rb",
+		"/home/joelmir/pull4up/testes/simple_app/config/database.yml",
+		"/home/joelmir/pull4up/testes/simple_app/config/routes.rb",
+		"/home/joelmir/pull4up/testes/simple_app/app/controllers/usuario_controller.rb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/javascripts/income_statement_rules.js",
+		"/home/joelmir/pull4up/contabil/src/app/views/income_statement_rules/_form.html.erb",
+		"/home/joelmir/pull4up/contabil/src/app/views/booking_accounts/index.html.erb",
+		"/home/joelmir/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/joelmir/pull4up/contabil/src/app/assets/javascripts/booking_accounts.js",
+		"/home/joelmir/pull4up/contabil/src/app/views/report_running_balances/_filter.html.erb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/stylesheets/reports.css.scss",
+		"/home/joelmir/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/joelmir/pull4up/contabil/src/app/assets/stylesheets/application.css.scss",
+		"/home/joelmir/pull4up/contabil/src/app/assets/stylesheets/income_statement_rule.css.scss",
+		"/home/joelmir/pull4up/contabil/src/app/views/api/business_activities/index.rabl",
+		"/home/joelmir/pull4up/contabil/src/app/controllers/api/business_activities_controller.rb",
+		"/home/joelmir/pull4up/contabil/src/app/views/api/business_activities/show.rabl",
+		"/home/joelmir/pull4up/contabil/src/app/views/booking_accounts/update.js.erb",
+		"/home/joelmir/pull4up/contabil/src/app/controllers/api/juridical_people_controller.rb",
+		"/home/joelmir/pull4up/contabil/src/spec/controllers/booking_accounts_controller_spec.rb",
+		"/home/joelmir/pull4up/contabil/src/app/models/booking_account.rb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/javascripts/jp_configurations.js",
+		"/home/joelmir/pull4up/contabil/src/app/views/booking_accounts/_ajax_create_update.js.erb",
+		"/home/joelmir/pull4up/contabil/src/app/views/booking_accounts/_form.html.erb",
+		"/home/joelmir/pull4up/contabil/src/app/views/booking_accounts/create.js.erb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/javascripts/utils.js",
+		"/home/joelmir/pull4up/contabil/src/app/controllers/booking_accounts_controller.rb",
+		"/home/joelmir/pull4up/contabil/src/spec/models/booking_account_spec.rb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/javascripts/templates/attachments.tmpl",
+		"/home/joelmir/pull4up/contabil/src/app/views/report_balance_sheets/_report.html.erb",
+		"/home/joelmir/pull4up/contabil/src/app/views/report_running_balances/_report.html.erb",
+		"/home/joelmir/pull4up/contabil/src/app/assets/stylesheets/print.css.scss",
+		"/home/joelmir/pull4up/tutorial/controle_gastos/db/migrate/20130918130746_create_centro_de_custos.rb",
+		"/home/joelmir/pull4up/tutorial/controle_gastos/db/migrate/20130918121351_create_centro_de_custos.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jurical_person",
+			"collection_check_boxes",
+			"name",
+			">\n",
+			"label.checkbox",
+			"def_param_group",
+			"respond_with",
+			"check_nature_changed",
+			"tree_root",
+			"tree_root\n",
+			"booking_account",
+			"bookin_account",
+			"new_booking_account",
+			"reload",
+			"add_ajax_success",
+			"bottom-book-accountings",
+			"spin",
+			"spim",
+			"background",
+			"tiny"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/users/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/users_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/users/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/accounts/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 1221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1157,
+								1157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/account.rb",
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/accounts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								853
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/juridical_people/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/controllers/juridical_people_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								964,
+								964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/models/juridical_person.rb",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true
+}

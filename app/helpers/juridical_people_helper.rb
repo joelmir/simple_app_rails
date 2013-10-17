@@ -1,0 +1,2 @@
+module JuridicalPeopleHelper
+end

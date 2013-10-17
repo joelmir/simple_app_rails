@@ -1,0 +1,27 @@
+<h1>Listing juridical_people</h1>
+
+<table>
+  <tr>
+    <th>Cnpj</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @juridical_people.each do |juridical_person| %>
+  <tr>
+    <td><%= juridical_person.cnpj %></td>
+    <td><%= juridical_person.name %></td>
+    <td><%= juridical_person.address %></td>
+    <td><%= link_to 'Show', juridical_person %></td>
+    <td><%= link_to 'Edit', edit_juridical_person_path(juridical_person) %></td>
+    <td><%= link_to 'Destroy', juridical_person, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Juridical person', new_juridical_person_path %>
