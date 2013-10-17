@@ -12,4 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.maskedinput
+//= require jquery.ui.datepicker
+//= require jquery.dateFormat
 //= require_tree .
+
+$(function() {
+  $('.datepicker').datepicker({dateFormat: "dd/mm/yy", autoclose: true, todayHighlight: true, language: "pt-BR"}).mask("99/99/9999");
+  $(".cnpj").mask("99.999.999/9999-99");
+});

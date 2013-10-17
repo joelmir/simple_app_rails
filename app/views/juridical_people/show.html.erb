@@ -15,6 +15,14 @@
   <%= @juridical_person.address %>
 </p>
 
+<p>
+  <b>Account:</b>
+  <% if @juridical_person.account %>
+    <%= link_to @juridical_person.account.name , @juridical_person.account%>
+  <% else %>
+    <%= "Nenhuma conta associada"%>
+  <% end %>
+</p>
 
 <%= link_to 'Edit', edit_juridical_person_path(@juridical_person) %> |
 <%= link_to 'Back', juridical_people_path %>

@@ -6,6 +6,26 @@
 </p>
 
 <p>
+  <b>Users:</b>
+  <% @account.users.each do |user| %>
+    <br /><%=link_to user.name, user %>
+  <% end %>
+  <% if @account.users.blank? %>
+    <%= "Nenhum usuário associado" %>
+  <% end %>
+</p>
+
+<p>
+  <b>Jurical People:</b>
+  <% @account.juridical_people.each do |juridical_person| %>
+    <br /><%=link_to juridical_person.name, juridical_person %>
+  <% end %>
+  <% if @account.users.blank? %>
+    <%= "Nenhuma pessoa jurica associada" %>
+  <% end %>
+</p>
+
+<p>
   <b>Expiration date:</b>
   <%= @account.expiration_date %>
 </p>

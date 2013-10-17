@@ -9,5 +9,153 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require jquery.ui.datepicker
  *= require_tree .
  */
+.simple_form {
+  div.input.check_boxes {
+    margin-bottom: 10px;
+  }
+  div.input.radio_buttons {
+    margin-bottom: 10px;
+  }
+
+  .form-fields {
+    //margin: 0 auto;
+    //width: 840px;
+  }
+
+  p.form-legend {
+    color: $default-red-color;
+    font-size: 12px;
+  }
+
+  span.hint {
+    font-size: 12px;
+  }
+}
+
+div.reveal-modal {
+  .simple_form {
+    .form-fields {
+      width: auto;
+    }
+  }
+}
+
+.form-actions {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 840px;
+
+  a.button.gray {
+    margin-left: 15px;
+  }
+
+  a.cancel {
+    margin-left: 15px;
+  }
+
+  a.clean, a.cancel {
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 33px;
+    text-decoration: underline;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 0;
+  width: 100%;
+
+  thead {
+    tr {
+      th {
+        color: #545454;
+        font-size: 12px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #DEDEDE;
+      td {
+        color: #666;
+        font-size: 15px;
+
+        p { margin: 0; }
+
+        a { text-decoration: underline; }
+
+        a.delete-attachment {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+
+      &.selected {
+        background-color: #E3E1E1;
+      }
+    }
+  }
+}
+div.tfoot {
+  background: #ededed;
+  color: #666;
+  font-size: 15px;
+  line-height: 39px;
+
+  &.row {
+    margin: 0 auto 1.25em auto;
+    width: 100%;
+  }
+
+  ul.pagination {
+    margin: 9px 0 0 0;
+
+    a { text-decoration: none; }
+  }
+}
+
+div.title {
+  overflow: hidden;
+
+  h3 {
+    color: #832664;
+    font: {
+      size: 20px;
+      family: "Open Sans Bold";
+      weight: normal;
+    }
+    line-height: 33px;
+    margin: 0 0 0 10px;
+  }
+
+    h5 {
+      color: #666;
+      clear: both;
+      font: {
+        size: 12px;
+        weight: normal;
+      }
+      position: relative;
+      top: -7px;
+      margin: 0 0 0 10px;
+
+      a {
+        float: none;
+        margin-right: 0;
+      }
+    }
+
+  a {
+    float: right;
+    margin-right: 10px;
+  }
+}

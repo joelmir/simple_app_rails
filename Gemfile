@@ -22,8 +22,17 @@ end
 
 gem 'jquery-rails'
 
+gem 'jquery-ui-rails', "4.0.2"
+
+
 # To use asynchronous processing
 gem 'sidekiq'
+
+# to create easy form by views
+gem 'simple_form', "2.1.0"
+
+# to validate CNPJ
+gem 'brcpfcnpj', "3.3.0"
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.13'
