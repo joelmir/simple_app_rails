@@ -34,6 +34,9 @@ gem 'simple_form', "2.1.0"
 # to validate CNPJ
 gem 'brcpfcnpj', "3.3.0"
 
+# Use SCSS for stylesheets
+gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.13'
   gem 'factory_girl_rails', '~> 4.2'

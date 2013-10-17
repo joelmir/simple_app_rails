@@ -15,6 +15,7 @@
 //= require jquery.maskedinput
 //= require jquery.ui.datepicker
 //= require jquery.dateFormat
+//= require twitter/bootstrap
 //= require_tree .
 
 $(function() {

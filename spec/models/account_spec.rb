@@ -31,8 +31,8 @@ describe Account do
   end
 
   it 'should have a jurical person ' do
-    juridical_person = FactoryGirl.build(:juridical_person)
-    juridical_person2 = FactoryGirl.build(:juridical_person)
+    juridical_person = FactoryGirl.create(:juridical_person , cnpj: "86.355.637/0001-16")
+    juridical_person2 = FactoryGirl.create(:juridical_person ,cnpj: "98.733.511/0001-17")
     account.juridical_people = [ juridical_person, juridical_person2 ]
     account.should be_valid
     account.juridical_people.size.should == 2
