@@ -1,7 +1,12 @@
 <% tab "juridical_people" %>
-<h1>Editing juridical_person</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @juridical_person %> |
-<%= link_to 'Back', juridical_people_path %>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Editing juridical_person</h3>
+  </div>
+  <div class="panel-body">
+    <%= render 'form' %>
+  </div>
+</div>
+<h4><span class="label label-info"><%= link_to 'Show', @juridical_person  %></span>
+  <span class="label label-default"><%= link_to 'Back', juridical_people_path%></span>
+</h4>
