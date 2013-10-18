@@ -1,29 +1,36 @@
-<h1>Listing users</h1>
+<% tab "users" %>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Birthday</th>
-    <th>Numero de contas</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @users.each do |user| %>
-  <tr>
-    <td><%= user.name %></td>
-    <td><%= user.email %></td>
-    <td><%= user.birthday.strftime("%d/%m/%Y") %></td>
-    <td><%= user.accounts.count %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Listagem de usuários</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Birthday</th>
+        <th>Numero de contas</th>
+        <th>Ações</th>
+      </tr>
+
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.birthday.strftime("%d/%m/%Y") %></td>
+        <td><%= user.accounts.count %></td>
+        <td><span class="label label-info"><%= link_to 'Exibir', user %></span>
+            <span class="label label-success"><%= link_to 'Editar', edit_user_path(user) %></span>
+            <span class="label label-danger"><%= link_to 'Apagar', user, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+        </td>
+      </tr>
+    <% end %>
+    </table>
+  </div>
+</div>
 
 <br />
 
-<%= link_to 'New User', new_user_path %>
+<%= link_to 'New User', new_user_path , :class => "btn btn-primary btn-lg"%>

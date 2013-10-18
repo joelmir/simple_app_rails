@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
   <title>SimpleApp</title>
@@ -7,6 +8,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+
+<ul class="nav nav-tabs">
+  <li class= <%="active" if @page_tab == "users" %> ><%= link_to 'Usuários', users_path %></li>
+  <li class= <%="active" if @page_tab == "accounts" %> ><%= link_to 'Contas', accounts_path %></li>
+  <li class= <%="active" if @page_tab == "juridical_people" %> ><%= link_to 'Pessoas Juridicas', juridical_people_path %></li>
+</ul>
 
 <%= yield %>
 
