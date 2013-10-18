@@ -52,3 +52,8 @@ group :development, :test do
   gem 'jasmine-jquery-rails'
   gem 'jasmine-phantom'
 end
+
+group :development do
+  gem 'git_remote_branch', '~> 0.3'
+  gem 'hub'
+end

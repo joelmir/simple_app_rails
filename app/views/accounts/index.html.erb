@@ -1,27 +1,29 @@
 <% tab "accounts" %>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Listing accounts</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>Expiration date</th>
+        <th>Ações</th>
+      </tr>
 
-<h1>Listing accounts</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Expiration date</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @accounts.each do |account| %>
-  <tr>
-    <td><%= account.name %></td>
-    <td><%= account.expiration_date.strftime("%d/%m/%Y")  %></td>
-    <td><%= link_to 'Show', account %></td>
-    <td><%= link_to 'Edit', edit_account_path(account) %></td>
-    <td><%= link_to 'Destroy', account, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
+    <% @accounts.each do |account| %>
+      <tr>
+        <td><%= account.name %></td>
+        <td><%= account.expiration_date.strftime("%d/%m/%Y")  %></td>
+        <td><span class="label label-info"><%= link_to 'Exibir', account %></span>
+            <span class="label label-success"><%= link_to 'Editar', edit_account_path(account) %></span>
+            <span class="label label-danger"><%= link_to 'Apagar', account, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+        </td>
+      </tr>
+    <% end %>
+    </table>
+  </div>
+</div>
 <br />
 
-<%= link_to 'New Account', new_account_path %>
+<%= link_to 'New Account', new_account_path , :class => "btn btn-primary btn-lg"%>

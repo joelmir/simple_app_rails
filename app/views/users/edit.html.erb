@@ -1,8 +1,12 @@
 <% tab "users" %>
-
-<h1>Editing user</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Editing user</h3>
+  </div>
+  <div class="panel-body">
+    <%= render 'form' %>
+  </div>
+</div>
+<h4><span class="label label-info"><%= link_to 'Show', @user  %></span>
+  <span class="label label-default"><%= link_to 'Back', users_path%></span>
+</h4>

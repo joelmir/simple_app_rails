@@ -1,28 +1,31 @@
 <% tab "juridical_people" %>
-<h1>Listing juridical_people</h1>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Listing juridical_people</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <th>Cnpj</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Ações</th>
+      </tr>
 
-<table>
-  <tr>
-    <th>Cnpj</th>
-    <th>Name</th>
-    <th>Address</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @juridical_people.each do |juridical_person| %>
-  <tr>
-    <td><%= juridical_person.cnpj %></td>
-    <td><%= juridical_person.name %></td>
-    <td><%= juridical_person.address %></td>
-    <td><%= link_to 'Show', juridical_person %></td>
-    <td><%= link_to 'Edit', edit_juridical_person_path(juridical_person) %></td>
-    <td><%= link_to 'Destroy', juridical_person, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
+    <% @juridical_people.each do |juridical_person| %>
+      <tr>
+        <td><%= juridical_person.cnpj %></td>
+        <td><%= juridical_person.name %></td>
+        <td><%= juridical_person.address %></td>
+        <td><span class="label label-info"><%= link_to 'Exibir', juridical_person %></span>
+            <span class="label label-success"><%= link_to 'Editar', edit_juridical_person_path(juridical_person) %></span>
+            <span class="label label-danger"><%= link_to 'Apagar', juridical_person, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+        </td>
+      </tr>
+    <% end %>
+    </table>
+  </div>
+</div>
 <br />
 
-<%= link_to 'New Juridical person', new_juridical_person_path %>
+<%= link_to 'New Juridical person', new_juridical_person_path , :class => "btn btn-primary btn-lg"%>
