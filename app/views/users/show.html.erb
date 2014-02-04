@@ -2,34 +2,61 @@
 
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @user.name %>
-</p>
+<ul class="list-group">
 
-<p>
-  <b>Email:</b>
-  <%= @user.email %>
-</p>
-
-<p>
-  <b>Birthday:</b>
-  <%=  @user.birthday.strftime("%d/%m/%Y") %>
-</p>
-
-<p>
-  <b>Accounts:</b>
-
-  <% @user.accounts.each do |account| %>
-    <br />
-    <%= link_to account.name, account %>
-  <% end %>
-  <% if @user.accounts.blank? %>
-    <%= "Nenhuma conta associada" %>
-  <% end %>
-
-</p>
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-lg-1">
+        <b>Name:</b>
+      </div>
+      <div class="col-lg-10">
+        <%= @user.name %>
+      </div>
+    </div>
+  </li>
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-lg-1">
+        <b>Email:</b>
+      </div>
+      <div class="col-lg-10">
+        <%= @user.email %>
+      </div>
+    </div>
 
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+  </li>
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-lg-1">
+        <b>Birthday:</b>
+      </div>
+      <div class="col-lg-10">
+        <%=  @user.birthday.strftime("%d/%m/%Y") %>
+      </div>
+    </div>
+
+  </li>
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-lg-1">
+        <b>Accounts:</b>
+      </div>
+      <div class="col-lg-10">
+        <% @user.accounts.each do |account| %>
+          <br />
+          <%= link_to account.name, account %>
+        <% end %>
+        <% if @user.accounts.blank? %>
+          <%= "Nenhuma conta associada" %>
+        <% end %>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+<h4><span class="label label-success"><%= link_to 'Edit', edit_user_path(@user)  %></span>
+  <span class="label label-default"><%= link_to 'Back', users_path%></span>
+</h4>
+

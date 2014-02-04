@@ -1,5 +1,4 @@
 <%= simple_form_for(@user) do |f| %>
-
     <%= f.input :name %>
     <%= f.input :email, placeholder: 'exemplo@exemplo.com' %>
     <%= f.input :birthday, as: :string,  input_html: { class: 'datepicker', value: @user.birthday.nil? ? "" : @user.birthday.strftime("%d/%m/%Y") } %>
